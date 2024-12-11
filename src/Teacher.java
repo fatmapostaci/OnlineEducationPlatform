@@ -4,7 +4,7 @@ public class Teacher {
 
     String name;
     String category;
-    Course course;
+
 
 
     public Teacher(String name,String category) {
@@ -12,22 +12,22 @@ public class Teacher {
         this.category=category;
 
 
+
     }
 
     public Teacher(String name, String category, Course course) {
         this.name = name;
         this.category = category;
-        this.course = course;
+
     }
 
     @Override
     public String toString() {
-        return "Teacher{" +
+        return "\nTeacher{" +
                 "name='" + name + '\'' +
                 ", category='" + category + '\'' +
-                ", course=" + course +
                 '}';
     }
-}
+
 }
 

@@ -23,16 +23,25 @@ public class Runner {
 
         Student ali = new Student("Ali", 37);
         ali.courseList.add(  sdet );
+        System.out.println("ali = " + ali);
+
 
         Student ahmet = new Student("Ahmet",12);
         ahmet.courseList.add( bio );
         ahmet.courseList.add(sdet);
+        System.out.println("ahmet = " + ahmet);
+
         bio.teacher = firdevs;
+        System.out.println("bio = " + bio);
 
+        CourseGrade grade1 = new CourseGrade(45,math,fatma);
+        System.out.println("grade1 = " + grade1);
 
-        System.out.println(bio);
-        System.out.println(ahmet);
-        System.out.println(firdevs);
+        CourseGrade grade2 = new CourseGrade(67,sdet,ahmet);
+        System.out.println("grade2 = " + grade2);
+
+        CourseGrade grade3 = new CourseGrade(78,math, ali);
+        System.out.println("grade3 = " + grade3);
 
 
     }

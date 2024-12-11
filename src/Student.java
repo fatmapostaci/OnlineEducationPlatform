@@ -7,6 +7,7 @@ public class Student {
     int age;
     List<Course> courseList;
 
+
     public Student(String name, int age, List<Course> courseList) {
         this.name = name;
         this.age = age;
@@ -21,7 +22,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "\nStudent{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", List=" + courseList +

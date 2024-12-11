@@ -24,9 +24,9 @@ public class Course {
 
     @Override
     public String toString() {
-        return "Course{" +
+        return "\nCourse{" +
                 "name='" + name + '\'' +
-                ", teacher='" + teacher.name + '\'' +
+                ", teacher='" + teacher + '\'' +
                 ", category='" + category + '\'' +
                 '}';
     }
